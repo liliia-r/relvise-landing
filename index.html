@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Relvise</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <a href="#" class="header__logo">Relvise</a>
+
+        <input type="checkbox" class="burger__checkbox" id="burger-toggle" />
+        <label for="burger-toggle" class="burger">
+          <span class="burger__btn">&nbsp;</span>
+        </label>
+
+        <nav class="navigation burger__menu">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Home</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Product</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Pricing</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="info-section">
+        <div class="container">
+          <div class="container__inner">
+            <h1 class="info-section__title">
+              Finance and Consultancy Solution
+            </h1>
+            <p class="info-section__text">
+              We know how large objects will act, but things on a small scale.
+            </p>
+            <div class="info-section__buttons">
+              <a
+                href=""
+                class="info-section__button info-section__button--orange"
+                >Get Quote Now</a
+              >
+              <a
+                href=""
+                class="info-section__button info-section__button--transparent"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="info-section__image bg__image">
+          <picture>
+            <source
+              srcset="img/mainblock/cover.jpg"
+              type="image/jpg"
+              media="(min-width: 1040px)"
+            />
+            <source
+              srcset="img/mainblock/cover-tablet.jpg"
+              type="image/jpg"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="img/mainblock/cover-mobile.jpg"
+              type="image/jpg"
+              media="(max-width: 768px)"
+            />
+
+            <img
+              src="img/mainblock/cover.jpg"
+              srcset="img/mainblock/cover2x.jpg 2x"
+              alt="bg"
+              width="auto"
+            />
+          </picture>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="container">
+          <div class="services__inner">
+            <ul class="services__column">
+              <li class="services__item">
+                <div class="item-service">
+                  <div class="services__icon">
+                    <img
+                      src="img/services/01.svg"
+                      alt="Environmental Consulting"
+                    />
+                  </div>
+                  <h3 class="services__title">Environmental Consulting</h3>
+                  <p class="services__text">
+                    We focus on ergonomics and meeting you where you work.
+                  </p>
+                </div>
+              </li>
+              <li class="services__item">
+                <div class="item-service">
+                  <div class="services__icon">
+                    <img
+                      src="img/services/02.svg"
+                      alt="Finance and consultancy "
+                    />
+                  </div>
+                  <h3 class="services__title">Finance and consultancy</h3>
+                  <p class="services__text">
+                    Just type what's on your mind and we'll get you there.
+                  </p>
+                </div>
+              </li>
+              <li class="services__item">
+                <div class="item-service services__item--green">
+                  <div class="services__icon">
+                    <img
+                      src="img/services/03.svg"
+                      alt="Financial Services Consulting"
+                    />
+                  </div>
+                  <h3 class="services__title">Financial Services Consulting</h3>
+                  <p class="services__text">
+                    the quick fox jumps over the lazy dog
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="advantages">
+        <div class="container">
+          <div class="header-block advantages__header">
+            <h2 class="header-block__title">Designing Better Experience</h2>
+            <p class="header-block__sub-title">
+              Problems trying to resolve the conflict between the two major
+              realms of Classical physics: Newtonian mechanics
+            </p>
+          </div>
+          <ul class="advantages__column">
+            <li class="advantages__item">
+              <div class="item-advantages">
+                <div class="advantages__icon">
+                  <img src="img/advantages/01.svg" alt="Consumer Products" />
+                </div>
+                <p class="advantages__value">972 +</p>
+                <p class="advantages__text">Consumer Products</p>
+              </div>
+            </li>
+
+            <li class="advantages__item">
+              <div class="item-advantages">
+                <div class="advantages__icon">
+                  <img src="img/advantages/02.svg" alt="Financial Services " />
+                </div>
+                <p class="advantages__value">181 +</p>
+                <p class="advantages__text">Financial Services</p>
+              </div>
+            </li>
+
+            <li class="advantages__item">
+              <div class="item-advantages">
+                <div class="advantages__icon">
+                  <img src="img/advantages/03.svg" alt="Environmental" />
+                </div>
+                <p class="advantages__value">98%</p>
+                <p class="advantages__text">Environmental</p>
+              </div>
+            </li>
+
+            <li class="advantages__item">
+              <div class="item-advantages">
+                <div class="advantages__icon">
+                  <img src="img/advantages/04.svg" alt="Business & Finance " />
+                </div>
+                <p class="advantages__value">746 +</p>
+                <p class="advantages__text">Business & Finance</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="practice">
+        <div class="container">
+          <div class="header-block practice__header">
+            <h2 class="header-block__title">Practice Advice</h2>
+            <p class="header-block__sub-title">
+              Problems trying to resolve the conflict between <br />
+              the two major realms of Classical physics: Newtonian mechanics
+            </p>
+          </div>
+          <ul class="practice__column">
+            <li class="practice__item">
+              <article class="item-practice">
+                <div class="item-practice__content">
+                  <h4 class="item-practice__title">A single source of truth</h4>
+                  <p class="item-practice__text">
+                    Newton thought that light was made up of particles, but then
+                    it was discovered
+                  </p>
+                </div>
+                <a href="#" class="item-practice__img bg__image">
+                  <img
+                    src="img/practice/01.jpg"
+                    alt="A single source of truth"
+                  />
+                </a>
+              </article>
+            </li>
+
+            <li class="practice__item">
+              <article class="item-practice">
+                <div class="item-practice__content">
+                  <h4 class="item-practice__title">Fastest way to organize</h4>
+                  <p class="item-practice__text">
+                    “Quantum mechanics” is the description of the behaviour of
+                    matter
+                  </p>
+                </div>
+                <a href="#" class="item-practice__img bg__image">
+                  <img
+                    src="img/practice/02.jpg"
+                    alt="Fastest way to organize"
+                  />
+                </a>
+              </article>
+            </li>
+
+            <li class="practice__item">
+              <article class="item-practice">
+                <div class="item-practice__content">
+                  <h4 class="item-practice__title">
+                    Fastest way to take action
+                  </h4>
+                  <p class="item-practice__text">
+                    They describe a universe consisting of bodies moving
+                  </p>
+                </div>
+                <a href="#" class="item-practice__img bg__image">
+                  <img
+                    src="img/practice/03.jpg"
+                    alt="Fastest way to take action"
+                  />
+                </a>
+              </article>
+            </li>
+
+            <li class="practice__item">
+              <article class="item-practice">
+                <div class="item-practice__content">
+                  <h4 class="item-practice__title">Work better together</h4>
+                  <p class="item-practice__text">
+                    They finally obtained a consistent description of the
+                    behaviour
+                  </p>
+                </div>
+                <a href="#" class="item-practice__img bg__image">
+                  <img src="img/practice/04.jpg" alt="Work better together" />
+                </a>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="whoweare">
+        <div class="container">
+          <div class="header-block whoweare__header">
+            <h2 class="header-block__title">Who We Are</h2>
+            <p class="header-block__sub-title">
+              Problems trying to resolve the conflict between the two major
+              realms <br />
+              of Classical physics: Newtonian mechanics
+            </p>
+          </div>
+
+          <div class="whoweare__body">
+            <div class="whoweare__video">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/JkPcA8dngB4"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="whoweare__content">
+              <div class="whoweare__top">
+                <h2 class="whoweare__title">Most trusted in our field</h2>
+                <p class="whoweare__text">
+                  Most calendars are designed for teams. Slate is designed for
+                  freelancers who want a simple way to plan their schedule.
+                </p>
+              </div>
+              <ul class="whoweare__list">
+                <li class="whoweare__item item-whoweare">
+                  <div class="item-whoweare__icon">
+                    <img src="img/whoweare/icons/01.svg" alt="icon" />
+                  </div>
+                  <div class="item-whoweare__body">
+                    <h5 class="item-whoweare__title">
+                      the quick fox jumps over the lazy dog
+                    </h5>
+                    <p class="item-whoweare__text">
+                      Things on a very small scale ...
+                    </p>
+                  </div>
+                </li>
+
+                <li class="whoweare__item item-whoweare">
+                  <div class="item-whoweare__icon">
+                    <img src="img/whoweare/icons/02.svg" alt="icon" />
+                  </div>
+                  <div class="item-whoweare__body">
+                    <h5 class="item-whoweare__title">
+                      the quick fox jumps over the lazy dog
+                    </h5>
+                    <p class="item-whoweare__text">
+                      Things on a very small scale ...
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="clients">
+        <div class="container">
+          <ul class="clients__list">
+            <li class="clients__item">
+              <img src="img/clients/01.svg" alt="client" />
+            </li>
+            <li class="clients__item">
+              <img src="img/clients/02.svg" alt="client" />
+            </li>
+            <li class="clients__item">
+              <img src="img/clients/03.svg" alt="client" />
+            </li>
+            <li class="clients__item">
+              <img src="img/clients/04.svg" alt="client" />
+            </li>
+            <li class="clients__item">
+              <img src="img/clients/05.svg" alt="client" />
+            </li>
+            <li class="clients__item">
+              <img src="img/clients/06.svg" alt="client" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="subscribe">
+        <div class="container">
+          <div class="subscribe__body">
+            <h4 class="subscribe__title">Subscribe For Latest Newsletter</h4>
+            <form action="#" class="subscribe__form">
+              <input
+                type="email"
+                required
+                name="form[]"
+                class="subscribe__input"
+                placeholder="Your Email"
+              />
+              <button type="submit" class="subscribe__btn">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="getintouch">
+        <div class="container">
+          <div class="header-block getintouch__header">
+            <h2 class="header-block__title">Get In Touch</h2>
+            <p class="header-block__sub-title">
+              Problems trying to resolve the conflict between <br />
+              the two major realms of Classical physics: Newtonian mechanics
+            </p>
+          </div>
+
+          <ul class="getintouch__list">
+            <li class="getintouch__item">
+              <div class="getintouch__icon">
+                <img src="img/getintouch/01.svg" alt="getintouch" />
+              </div>
+              <div class="getintouch__emails">
+                <a
+                  href="mailto:georgia.young@example.com"
+                  class="getintouch__email"
+                >
+                  georgia.young@example.com</a
+                >
+                <a href="mailto:georgia.young@ple.com" class="getintouch__email"
+                  >georgia.young@ple.com</a
+                >
+              </div>
+              <p class="getintouch__label">Get Support</p>
+              <a href="#" class="getintouch__btn">Submit Request</a>
+            </li>
+
+            <li class="getintouch__item getintouch__item--active">
+              <div class="getintouch__icon">
+                <img src="img/getintouch/02.svg" alt="getintouch" />
+              </div>
+              <div class="getintouch__emails">
+                <a
+                  href="mailto:georgia.young@example.com"
+                  class="getintouch__email"
+                >
+                  georgia.young@example.com</a
+                >
+                <a href="mailto:georgia.young@ple.com" class="getintouch__email"
+                  >georgia.young@ple.com</a
+                >
+              </div>
+              <p class="getintouch__label">Get Support</p>
+              <a href="#" class="getintouch__btn">Submit Request</a>
+            </li>
+
+            <li class="getintouch__item">
+              <div class="getintouch__icon">
+                <img src="img/getintouch/03.svg" alt="getintouch" />
+              </div>
+              <div class="getintouch__emails">
+                <a
+                  href="mailto:georgia.young@example.com"
+                  class="getintouch__email"
+                >
+                  georgia.young@example.com</a
+                >
+                <a href="mailto:georgia.young@ple.com" class="getintouch__email"
+                  >georgia.young@ple.com</a
+                >
+              </div>
+              <p class="getintouch__label">Get Support</p>
+              <a href="#" class="getintouch__btn">Submit Request</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <div class="contact__body">
+            <div class="contact__content">
+              <h4 class="contact__title">
+                Consulting Agency For Your Business
+              </h4>
+              <p class="contact__text">the quick fox jumps over the lazy dog</p>
+            </div>
+            <a href="#" class="contact__btn">Contact Us</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="container footer__main">
+          <div class="footer__row">
+            <div class="footer__column">
+              <h6 class="footer__label">Company Info</h6>
+              <nav class="footer__menu">
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">About Us</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Carrier</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">We are hiring</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Blog</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="footer__column">
+              <h6 class="footer__label">Legal</h6>
+              <nav class="footer__menu">
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">About Us</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Carrier</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">We are hiring</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Blog</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="footer__column">
+              <h6 class="footer__label">Features</h6>
+              <nav class="footer__menu">
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Business Marketing</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">User Analytic</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Live Chat</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Unlimited Support</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="footer__column">
+              <h6 class="footer__label">Resources</h6>
+              <nav class="footer__menu">
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">IOS & Android</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Watch a Demo</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Customers</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">API</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="footer__column">
+              <div class="footer__label">Get In Touch</div>
+              <div class="footer__contacts contacts-footer">
+                <a
+                  href="tel:4805550103"
+                  class="contacts-footer__item contacts-footer__item_phone"
+                  >(480) 555-0103</a
+                >
+                <a
+                  href=""
+                  class="contacts-footer__item contacts-footer__item_map"
+                  >4517 Washington Ave. Manchester, Kentucky 39495</a
+                >
+                <a
+                  href="mailto:debra.holt@example.com"
+                  class="contacts-footer__item contacts-footer__item_email"
+                  >debra.holt@example.com</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="container footer__secondary">
+          <p class="footer__copy">
+            Made With Love By Figmaland All Right Reserved
+          </p>
+          <ul class="footer__social">
+            <li class="social__item">
+              <img src="img/footer/social/01.svg" alt="facebook" />
+            </li>
+            <li class="social__item">
+              <img src="img/footer/social/02.svg" alt="instagram" />
+            </li>
+            <li class="social__item">
+              <img src="img/footer/social/03.svg" alt="twitter" />
+            </li>
+            <li class="social__item">
+              <img src="img/footer/social/04.svg" alt="youtube" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
